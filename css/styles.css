@@ -64,6 +64,10 @@ color: #4d5ae5;
     color: #404BBF;
 }
 
+.contact {
+    font-style: normal;
+}
+
 .contact-info {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -98,18 +102,23 @@ color: #4d5ae5;
     background-color: #404BBF
 }
 
-.modal-btn {
+.hero-button {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
-    text-align: center;
+    letter-spacing: 0.04em;
     cursor: pointer;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: #ffffff;
+    background-color: #4D5AE5
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+    color: #ffffff;
 }
 
 .main-title {
@@ -154,10 +163,9 @@ color: #4d5ae5;
     text-transform: capitalize;
     color: #2E2F42;
     
-  
-    
-    
-}
+    }
+
+   
 
 .people {
     font-family: 'Roboto', sans-serif;
