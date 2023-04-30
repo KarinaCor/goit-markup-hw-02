@@ -217,6 +217,10 @@ body {
 }
 
 .section-team {
+    background-color: #F4F4FD;
+}
+
+.section-team-list {
     background-color: #FFFFFF;
 }
 
